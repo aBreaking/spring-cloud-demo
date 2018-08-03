@@ -1,0 +1,10 @@
+server:
+  port: 9999
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    register-with-eureka: false   #表示不将自己注册到注册中心去
+    fetch-registry: false #这里设置为true的话，启动就会报警
+    service-url:  #注册中心的地址
+       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/

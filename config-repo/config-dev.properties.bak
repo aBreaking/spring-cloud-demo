@@ -1,3 +1,0 @@
-jdbc.url=jdbc:oracle:thin:10.11.22.33:1621:database
-jdbc.username=root
-jdbc.password=123
